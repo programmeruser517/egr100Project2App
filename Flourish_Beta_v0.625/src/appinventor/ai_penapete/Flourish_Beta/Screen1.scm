@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["ai2.appinventor.mit.edu"],"YaVersion":"224","Source":"Form","Properties":{"$Name":"Screen1","$Type":"Form","$Version":"30","AboutScreen":"An app intended for better life management.","AccentColor":"&H00FFFFFF","AlignHorizontal":"3","AlignVertical":"2","AppName":"Flourish","BackgroundImage":"wave-liquid-background-abstract-vibrant-poster-web-element_41901-2696.jpg","Title":"Screen1","Uuid":"0","$Components":[{"$Name":"Image2","$Type":"Image","$Version":"6","Picture":"download.png","Uuid":"-785501463"},{"$Name":"Label1","$Type":"Label","$Version":"5","BackgroundColor":"&H00FBC4FF","FontItalic":"True","FontSize":"10","Text":"Welcome! Loading application...","Uuid":"-46970759"},{"$Name":"Image1","$Type":"Image","$Version":"6","Picture":"giphy_10.gif","Uuid":"-64796838"},{"$Name":"MakeViewUp1","$Type":"MakeViewUp","$Version":"2","Uuid":"926352844"},{"$Name":"Clock1","$Type":"Clock","$Version":"4","TimerInterval":"7500","Uuid":"1844736927"}]}}
+|#
