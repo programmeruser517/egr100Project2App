@@ -1,0 +1,62 @@
+[{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2022-03-16T10:12:17+0000",
+ "nonVisible": "true",
+ "iconName": "https://docs.google.com/drawings/d/e/2PACX-1vQCI87PHLBF0jb8QWyYmIRQSjjNW3EFXf-qpsWCvBYkUQ9vEgPAB8SpxcMpblxNpbIYrjCjLrRLIU2c/pub?w=16&h=16",
+ "methods": [
+  {
+   "deprecated": "false",
+   "name": "FadeIn",
+   "description": "Applies fade-in animation for the given component.",
+   "params": [
+    {
+     "name": "component",
+     "type": "component"
+    },
+    {
+     "name": "duration",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "FadeOut",
+   "description": "Applies fade-out animation for the given component.",
+   "params": [
+    {
+     "name": "component",
+     "type": "component"
+    },
+    {
+     "name": "duration",
+     "type": "number"
+    },
+    {
+     "name": "startOffset",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "StopAnimations",
+   "description": "Stops all of the animation applied to the given component.",
+   "params": [{
+    "name": "component",
+    "type": "component"
+   }]
+  }
+ ],
+ "blockProperties": [],
+ "helpUrl": "",
+ "type": "com.gordonlu.fadeanimation.FadeAnimation",
+ "androidMinSdk": 7,
+ "version": "1",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "FadeAnimation",
+ "helpString": "A non-visible extension that applies fade in and fade out animations to your visible components.",
+ "properties": [],
+ "events": []
+}]

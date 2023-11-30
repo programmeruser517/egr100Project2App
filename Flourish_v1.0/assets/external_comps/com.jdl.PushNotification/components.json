@@ -1,0 +1,165 @@
+[{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2020-07-15T03:50:59-0300",
+ "nonVisible": "true",
+ "iconName": "aiwebres/notification.png",
+ "methods": [
+  {
+   "deprecated": "false",
+   "name": "ClearOneSignalNotifications",
+   "description": "Clear onesignal notifications.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "DeleteTags",
+   "description": "Deletes one or more tags that were previously set on a user.",
+   "params": [{
+    "name": "tags",
+    "type": "list"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "GetTags",
+   "description": "Gets the tags, returning it in \"TagsAvailable\".",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "PostNotification",
+   "description": "Send a notification.",
+   "params": [{
+    "name": "notification",
+    "type": "dictionary"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "SendTags",
+   "description": "Send the tags.",
+   "params": [{
+    "name": "tags",
+    "type": "dictionary"
+   }]
+  }
+ ],
+ "blockProperties": [
+  {
+   "rw": "invisible",
+   "deprecated": "false",
+   "name": "AppId",
+   "description": "One Signal App ID",
+   "type": "text"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "EnableSound",
+   "description": "Play sound when receiving notification. (DEFAULT: TRUE)",
+   "type": "boolean"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "EnableVibrate",
+   "description": "Enable vibration when receiving notification. (DEFAULT: TRUE)",
+   "type": "boolean"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "GetUserId",
+   "description": "Gets the subscription id.",
+   "type": "text"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "SetInFocusDisplaying",
+   "description": "Setting to control how OneSignal notifications will be shown when one is received while your app is in focus. (DEFAULT: 1)",
+   "type": "number"
+  }
+ ],
+ "helpUrl": "https://github.com/jarlisson2/PushNotificationAIX",
+ "type": "com.jdl.PushNotification.PushNotification",
+ "androidMinSdk": 7,
+ "version": "1",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "PushNotification",
+ "helpString": "OneSignal Receiver <br> Developed by Jarlisson",
+ "properties": [{
+  "defaultValue": "",
+  "name": "AppId",
+  "editorArgs": [],
+  "editorType": "string"
+ }],
+ "events": [
+  {
+   "deprecated": "false",
+   "name": "NotificationOpened",
+   "description": "Event triggered when opening the notification.",
+   "params": [
+    {
+     "name": "id",
+     "type": "text"
+    },
+    {
+     "name": "title",
+     "type": "text"
+    },
+    {
+     "name": "payload",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "NotificationReceived",
+   "description": "Event triggered when receiving any notification.",
+   "params": [
+    {
+     "name": "id",
+     "type": "text"
+    },
+    {
+     "name": "title",
+     "type": "text"
+    },
+    {
+     "name": "payload",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnFailure",
+   "description": "Returns if there was an error sending the message.",
+   "params": [{
+    "name": "response",
+    "type": "dictionary"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnSuccess",
+   "description": "Returns if successful in sending the message.",
+   "params": [{
+    "name": "response",
+    "type": "dictionary"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "TagsAvailable",
+   "description": "Returns the tags.",
+   "params": [{
+    "name": "tags",
+    "type": "dictionary"
+   }]
+  }
+ ]
+}]
